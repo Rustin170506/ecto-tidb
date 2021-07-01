@@ -8,8 +8,7 @@ defmodule Pingcapers.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: Pingcapers.Worker.start_link(arg)
-      # {Pingcapers.Worker, arg}
+      Pingcapers.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
