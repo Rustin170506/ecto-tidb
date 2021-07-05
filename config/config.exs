@@ -6,5 +6,5 @@ config :pingcapers, Pingcapers.Repo,
   database: "pingcapers_repo",
   username: "root",
   password: "",
-  hostname: "localhost",
-  port: "4000"
+  hostname: "127.0.0.1",
+  port: 4000
